@@ -1,0 +1,6 @@
+﻿  CSINS.cpp
+g:\gd100项目\gd100_git_lib\gd100_lib_1210\src\gilc\csins.cpp(1179): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+g:\gd100项目\gd100_git_lib\gd100_lib_1210\src\gilc\csins.cpp(1180): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(G:\GD100项目\GD100_GIT_lib\GD100_lib_1210\Debug\GILC_Vehicle_lib.lib) does not match the Library's OutputFile property value (G:\GD100项目\GD100_GIT_lib\GD100_lib_1210\Debug\libgilcvehicle.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(GILC_Vehicle_lib) does not match the Library's OutputFile property value (libgilcvehicle). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  GILC_Vehicle_lib.vcxproj -> G:\GD100项目\GD100_GIT_lib\GD100_lib_1210\Debug\GILC_Vehicle_lib.lib

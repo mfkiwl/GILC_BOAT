@@ -1,0 +1,10 @@
+---- num_ContinueFix Matches (10 in 2 files) ----
+GIProcess::GIProcess in CSINS.cpp (src\gilc) : 	num_ContinueFix=6;
+CSINS.cpp (src\gilc) line 1662 : 	num_ContinueFix=gipro.num_ContinueFix;
+GIProcess::Init in CSINS.cpp (src\gilc) : 	num_ContinueFix=6;
+GIProcess::ZUpdate in CSINS.cpp (src\gilc) : 			num_ContinueFix=5;
+GIProcess::ZUpdate in CSINS.cpp (src\gilc) : 		num_ContinueFix++;	
+GIProcess::ZUpdate in CSINS.cpp (src\gilc) : 		if(num_ContinueFix>5)       //连续固定数目>6,直接使用GNSS给出的方差信息，初始化为6
+GIProcess::ZUpdate in CSINS.cpp (src\gilc) : 			kf.downgrade(ilcd,(6-num_ContinueFix),PosRk);
+GIProcess::ZUpdate in CSINS.cpp (src\gilc) : 		num_ContinueFix=0;          //连续固定数目置零
+GIProcess in GILC.h (src\gilc) : 	int num_ContinueFix;                
